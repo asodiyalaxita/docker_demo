@@ -1,0 +1,10 @@
+version: '3'
+services:
+  app:
+    build: .
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./src:/usr/src/app/src  # Only mounts src folder to container
+      - ./server.js:/usr/src/app/server.js
+      - /usr/src/app/node_modules

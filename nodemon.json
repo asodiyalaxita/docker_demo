@@ -1,0 +1,6 @@
+{
+    "watch": ["src/*", "server.js"],
+    "delay": 500,
+    "legacyWatch": true
+  }
+  
